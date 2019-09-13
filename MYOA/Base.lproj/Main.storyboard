@@ -29,7 +29,7 @@
         <!--View Controller-->
         <scene sceneID="ILF-ty-9VV">
             <objects>
-                <viewController id="ZZF-LG-5hU" sceneMemberID="viewController">
+                <viewController id="ZZF-LG-5hU" customClass="MYOAViewController" customModule="MYOA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xTV-RJ-D2V">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -87,7 +87,7 @@ What should she do?</string>
         <!--View Controller-->
         <scene sceneID="7Mi-Ut-f7B">
             <objects>
-                <viewController id="y9c-a0-080" sceneMemberID="viewController">
+                <viewController id="y9c-a0-080" customClass="MYOAViewController" customModule="MYOA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rVd-Yn-Udm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -106,14 +106,14 @@ What should she do?</string>
                                 <rect key="frame" x="20" y="633" width="374" height="30"/>
                                 <state key="normal" title="Wait to see what happens next."/>
                                 <connections>
-                                    <segue destination="xZG-e4-mfD" kind="push" id="VEj-dZ-8IT"/>
+                                    <segue destination="xZG-e4-mfD" kind="show" id="VEj-dZ-8IT"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="egd-mn-ppR">
                                 <rect key="frame" x="20" y="698" width="374" height="30"/>
                                 <state key="normal" title="Attack the old man!"/>
                                 <connections>
-                                    <segue destination="xbS-wN-PBN" kind="push" id="lH6-OU-SgV"/>
+                                    <segue destination="xbS-wN-PBN" kind="show" id="lH6-OU-SgV"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -140,7 +140,7 @@ What should she do?</string>
         <!--View Controller-->
         <scene sceneID="zjV-TL-ErF">
             <objects>
-                <viewController id="2cu-hL-pAl" sceneMemberID="viewController">
+                <viewController id="2cu-hL-pAl" customClass="MYOAViewController" customModule="MYOA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="r2h-Wt-N5x">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -158,14 +158,14 @@ What should she do?</string>
                                 <rect key="frame" x="20" y="633" width="374" height="30"/>
                                 <state key="normal" title="Attack the old man!"/>
                                 <connections>
-                                    <segue destination="icu-J3-iHo" kind="push" id="3xj-qJ-ueg"/>
+                                    <segue destination="icu-J3-iHo" kind="show" id="3xj-qJ-ueg"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gtd-Ry-JK2">
                                 <rect key="frame" x="20" y="698" width="374" height="30"/>
                                 <state key="normal" title="Pad quitely down the hallway"/>
                                 <connections>
-                                    <segue destination="8an-7g-xQs" kind="push" id="zE4-1C-e77"/>
+                                    <segue destination="8an-7g-xQs" kind="show" id="zE4-1C-e77"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -192,7 +192,7 @@ What should she do?</string>
         <!--View Controller-->
         <scene sceneID="uFx-AN-Ywo">
             <objects>
-                <viewController id="xZG-e4-mfD" sceneMemberID="viewController">
+                <viewController id="xZG-e4-mfD" customClass="MYOAViewController" customModule="MYOA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TyN-2q-W8a">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -224,7 +224,7 @@ What should she do?</string>
         <!--View Controller-->
         <scene sceneID="RC1-en-5oR">
             <objects>
-                <viewController id="xbS-wN-PBN" sceneMemberID="viewController">
+                <viewController id="xbS-wN-PBN" customClass="MYOAViewController" customModule="MYOA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uyf-1u-ZSl">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -256,7 +256,7 @@ What should she do?</string>
         <!--View Controller-->
         <scene sceneID="3U5-eG-WGh">
             <objects>
-                <viewController id="icu-J3-iHo" sceneMemberID="viewController">
+                <viewController id="icu-J3-iHo" customClass="MYOAViewController" customModule="MYOA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VS8-1q-EGu">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -289,7 +289,7 @@ What should she do?</string>
         <!--View Controller-->
         <scene sceneID="XBI-lW-LHd">
             <objects>
-                <viewController id="8an-7g-xQs" sceneMemberID="viewController">
+                <viewController id="8an-7g-xQs" customClass="MYOAViewController" customModule="MYOA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qzk-8Y-2LS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -307,14 +307,14 @@ What should she do?</string>
                                 <rect key="frame" x="20" y="633" width="374" height="30"/>
                                 <state key="normal" title="Check out the kitchen"/>
                                 <connections>
-                                    <segue destination="dDn-8i-Fq1" kind="push" id="dqm-Mq-L1t"/>
+                                    <segue destination="dDn-8i-Fq1" kind="show" id="dqm-Mq-L1t"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qn4-ZH-fIh">
                                 <rect key="frame" x="20" y="698" width="374" height="30"/>
                                 <state key="normal" title="Try for the forest"/>
                                 <connections>
-                                    <segue destination="vc9-Uy-8Wy" kind="push" id="FoX-Ln-Heg"/>
+                                    <segue destination="vc9-Uy-8Wy" kind="show" id="FoX-Ln-Heg"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -341,7 +341,7 @@ What should she do?</string>
         <!--View Controller-->
         <scene sceneID="31I-gE-HCG">
             <objects>
-                <viewController id="vc9-Uy-8Wy" sceneMemberID="viewController">
+                <viewController id="vc9-Uy-8Wy" customClass="MYOAViewController" customModule="MYOA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cTJ-SR-Exf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -373,7 +373,7 @@ What should she do?</string>
         <!--View Controller-->
         <scene sceneID="5Zk-K4-BlO">
             <objects>
-                <viewController id="dDn-8i-Fq1" sceneMemberID="viewController">
+                <viewController id="dDn-8i-Fq1" customClass="MYOAViewController" customModule="MYOA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dzz-jG-rB4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
